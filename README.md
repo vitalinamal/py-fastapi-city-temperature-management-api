@@ -35,6 +35,13 @@ includes two main components (apps):
    ```bash
    alembic upgrade head
 
+5. **Set up environment variables:**
+   - Create a .env file in the root directory of your project and add the following environment variables:
+   ```
+   WEATHER_API_KEY=your_weather_api_key
+   WEATHER_API=https://api.weatherapi.com/v1/current.json (or any another)
+   ```
+
 ### Running the Application
 
 - To run the FastAPI application, use the following command:
